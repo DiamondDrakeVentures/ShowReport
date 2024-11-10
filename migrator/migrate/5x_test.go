@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/DiamondDrakeVentures/ShowReport/port/migrate"
+	"github.com/DiamondDrakeVentures/ShowReport/migrator/migrate"
 	"github.com/stretchr/testify/suite"
 )
 

@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/DiamondDrakeVentures/ShowReport/port/data/legacy"
-	"github.com/DiamondDrakeVentures/ShowReport/port/encoding"
+	"github.com/DiamondDrakeVentures/ShowReport/migrator/data/legacy"
+	"github.com/DiamondDrakeVentures/ShowReport/migrator/encoding"
 	"github.com/stretchr/testify/suite"
 )
 

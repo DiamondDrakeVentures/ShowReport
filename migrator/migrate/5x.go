@@ -4,9 +4,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/DiamondDrakeVentures/ShowReport/port/data"
-	"github.com/DiamondDrakeVentures/ShowReport/port/data/legacy"
-	"github.com/DiamondDrakeVentures/ShowReport/port/encoding"
+	"github.com/DiamondDrakeVentures/ShowReport/migrator/data"
+	"github.com/DiamondDrakeVentures/ShowReport/migrator/data/legacy"
+	"github.com/DiamondDrakeVentures/ShowReport/migrator/encoding"
 )
 
 // migrateTo5x migrates reports to the 5x format.

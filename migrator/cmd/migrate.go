@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/DiamondDrakeVentures/ShowReport/port/migrate"
+	"github.com/DiamondDrakeVentures/ShowReport/migrator/migrate"
 )
 
 type CmdMigrate struct {

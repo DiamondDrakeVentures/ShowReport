@@ -1,4 +1,4 @@
-module github.com/DiamondDrakeVentures/ShowReport/port
+module github.com/DiamondDrakeVentures/ShowReport/migrator
 
 go 1.22.3
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/DiamondDrakeVentures/ShowReport/port/cmd"
+	"github.com/DiamondDrakeVentures/ShowReport/migrator/cmd"
 	"github.com/alexflint/go-arg"
 )
 
