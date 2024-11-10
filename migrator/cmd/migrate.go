@@ -7,9 +7,9 @@ import (
 )
 
 type CmdMigrate struct {
-	SrcFile    string `arg:"--input,-i" help:"source file"`
-	SrcFormat  string `arg:"--input-format,-s" help:"format of source file"`
-	DstFile    string `arg:"--output,-o" help:"target file"`
+	SrcFile    string `arg:"--input,-i,required" help:"source file"`
+	SrcFormat  string `arg:"--input-format,-s,required" help:"format of source file"`
+	DstFile    string `arg:"--output,-o" default:"migrated.csv" help:"target file"`
 	DstFormat  string `arg:"--output-format,-f" default:"5x" help:"format of target file"`
 	UpdateUser string `arg:"--user,-u" default:"migrator@diamonddrake.co" help:"user attributed for the migrated data"`
 
