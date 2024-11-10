@@ -6,7 +6,7 @@ import "time"
 type IV struct {
 	Timestamp     time.Time `csv:"Timestamp" time:"timestamp"`
 	Email         string    `csv:"Email"`
-	Status        string    `csv:"status"`
+	Status        string    `csv:"Status"`
 	Date          time.Time `csv:"Date" time:"date"`
 	EpisodeNumber string    `csv:"Episode Number"`
 	EpisodeID     string    `csv:"Episode ID"`
